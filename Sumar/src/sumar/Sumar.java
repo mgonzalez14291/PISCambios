@@ -13,14 +13,14 @@ public class Sumar {
         int a;
         int b;
         int c;
-        int d;
+        int delta;
         System.out.println("Ingrese un numero:");
         a=l.nextInt();
         System.out.println("Ingrese un numero:");
         b=l.nextInt();
         c=a+b;
-        d=a-b;
+        delta=a-b;
         System.out.println("La suma es: "+c);
-                System.out.println("La resta es: "+d);
+                System.out.println("La resta es: "+delta);
     }
 }
