@@ -12,15 +12,16 @@ public class Sumar {
         Scanner l= new Scanner(System.in);
         int a;
         int b;
-        int c;
+        int charlie;
         int delta;
+        
         System.out.println("Ingrese un numero:");
         a=l.nextInt();
         System.out.println("Ingrese un numero:");
         b=l.nextInt();
-        c=a+b;
+        charlie=a+b;
         delta=a-b;
-        System.out.println("La suma es: "+c);
+        System.out.println("La suma es: "+charlie);
                 System.out.println("La resta es: "+delta);
     }
 }
