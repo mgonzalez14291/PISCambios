@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class Sumar {
     public static void main(String[] arg){
+        //comentario
         Scanner l= new Scanner(System.in);
         int a;
         int b;
